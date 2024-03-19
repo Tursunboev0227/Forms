@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscordLogin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(/Images/1291249.png);
+        }
+
+        .Main {
+            width: 681px;
+            height: 358px;
+            background-color: #313338;
+            /*#313338 */
+            margin-left: 485px;
+            margin-top: 230px;
+            display: flex;
+            border-radius: 7px;
+
+        }
+
+        .child1 {
+            width: 450px;
+            height: 400px;
+            text-align: center;
+            color: white;
+
+        }
+
+        .child2 {
+            width: 230px;
+            height: 400px;
+            color: white;
+
+
+        }
+
+        .QR {
+            width: 150px;
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+
+        .login {
+            margin-left: 2em;
+            text-align: left;
+
+        }
+
+        input {
+            width: 400px;
+            height: 30px;
+            background-color: #313338;
+        }
+
+        button {
+            background-color: rgb(43, 113, 226);
+            width: 400px;
+            height: 35px;
+            border-radius: 5px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="Main">
+        <div class="child1">
+            <br>
+            <h3>Welcome back</h3>
+            <br>
+            <p style="color:grey;">We're so excited to see you again!</p>
+            <br>
+            <div class="login">
+                <label for="email" style="font-size: 70%; color: grey;">EMAIL OR PHONE NUMBER <sup
+                        style="color: red;">*</sup></label>
+                <br>
+                <input type="text" name="email" id="email" style="border-radius: 2px;">
+                <br>
+                <br>
+                <label for="email" style="color: grey;">Password <sup style="color: red;">*</sup></label>
+                <br>
+                <input type="text" name="password" id="password"  style="border-radius: 2px;">
+                <p style="font-size: 80%; color:rgb(0, 183, 255)">Forgot your password?</p>
+                <br>
+                <button>LogIn</button>
+                <div style="display: flex;">
+                    <p style="color: grey; font-size:70% ; margin-top: 5px;">Need an account?</p>
+                    <p style="color:rgb(0, 183, 255);font-size: 70%; margin-top: 5px;">&nbsp;Register</p>
+                </div>
+            </div>
+        </div>
+        <div class="child2">
+            <div style="text-align: center ;">
+                <img class="QR" src="/Images/photo_2024-03-20_04-22-31.jpg" alt="">
+                <h4>Log in with QR Code</h4>
+                <p style="color: grey;font-size:12px;margin-top: 4px;" >Scan this with the <b>Discord mobile app <br> to log in instantly</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
