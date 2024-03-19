@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Sign In</title>
+    <link rel="stylesheet" href="Telegram.css">
+</head>
+<body>
+    <div class="signin-container">
+        <div class="signin-box">
+            <div class="telegram-logo"></div>
+            <h2>Telegram</h2>
+            <p>Please confirm your country code and enter <br> your phone number</p>
+            <form>
+                <div class="input-group">
+                    <input type="text" id="country" name="country" placeholder="Country" required>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="phone" name="phone" value="+99890" required>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="keep-signed-in" name="keep-signed-in">
+                    <label for="keep-signed-in">Keep me signed in</label>
+                </div>
+            </form>
+            <p class="qr-code-link">Log in via <a href="#">QR code</a></p>
+        </div>
+    </div>
+</body>
+</html>

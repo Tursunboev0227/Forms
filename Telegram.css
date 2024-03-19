@@ -1,0 +1,101 @@
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signin-box {
+    background-color: #000;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #fff; /* Add this line to set text color to white */
+}
+
+.telegram-logo {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/240px-Telegram_logo.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-group label {
+    color: #fff;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0088cc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005580;
+}
+
+.terms {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.qr-code-link {
+    font-size: 14px;
+    color: #0088cc;
+}
+
+.qr-code-link a {
+    text-decoration: none;
+    color: #0088cc;
+}
+
+.qr-code-link a:hover {
+    text-decoration: underline;
+}
+body{
+    background-color: black;
+}
