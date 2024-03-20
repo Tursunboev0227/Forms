@@ -20,6 +20,8 @@
     background-repeat: no-repeat;
     height: 80px;
     margin-bottom: 20px;
+    flex: auto;
+    margin-left: 90px;
 }
 
 h2 {
