@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+div{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: solid blue;   
+}
+
+p{
+    margin-left: 5px;
+}
