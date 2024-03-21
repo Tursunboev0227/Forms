@@ -8,5 +8,8 @@
     width: 600px;
     height: 400px;
     background-color: #ff0000;
-    
+}
+
+img{
+    background-attachment: fixed;
 }
