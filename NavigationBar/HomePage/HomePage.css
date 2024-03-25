@@ -1,20 +1,18 @@
-.main
-{
+.main {
     text-align: center;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStHaha3gwBc0DqwwbpR4pkE6QaHBz74yUt_m43c9zz8g&s);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-   background-repeat: no-repeat;
 }
-.title
-{
+
+body {
+    background-color: blue;
+}
+
+.title {
     color: black;
     text-align: center;
     font-weight: bold;
 }
-.category
-{
+
+.category {
     background-color: black;
     color: white;
     position: relative;
@@ -24,22 +22,22 @@
     text-align: left;
     padding: 0 10px;
 }
-.ulText
-{
+
+.ulText {
     list-style: none;
     display: flex;
     gap: 160px;
     margin-left: 130px;
 }
-.ulimg
-{
+
+.ulimg {
     list-style: none;
     display: flex;
     gap: 60px;
     margin-left: 130px;
 }
-img
-{
+
+img {
     height: 160px;
     width: 150px;
 }
