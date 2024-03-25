@@ -1,0 +1,45 @@
+.main
+{
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStHaha3gwBc0DqwwbpR4pkE6QaHBz74yUt_m43c9zz8g&s);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+   background-repeat: no-repeat;
+}
+.title
+{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.category
+{
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 10em;
+    width: 700px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 10px;
+}
+.ulText
+{
+    list-style: none;
+    display: flex;
+    gap: 160px;
+    margin-left: 130px;
+}
+.ulimg
+{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    margin-left: 130px;
+}
+img
+{
+    height: 160px;
+    width: 150px;
+}
