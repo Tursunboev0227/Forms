@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.title{
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.title p{
+    margin-left: 5px;
+    color: gray;
+}
+.like{
+    color: gray;
+    margin-left: 70em;
+}
+.description h3{
+    color: white
+}
+.description img{
+    height: 400px;
+    width: 250px;
+}
+.button1{
+    background-color: aquamarine;
+    color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+.button2{
+    background-color: rgb(127, 212, 255);
+    color: white;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    
+}

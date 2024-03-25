@@ -3,18 +3,17 @@
 }
 
 body {
-    background-color: blue;
+    background-color: rgb(255, 213, 0);
 }
 
 .title {
-    color: black;
     text-align: center;
     font-weight: bold;
 }
 
+
 .category {
-    background-color: black;
-    color: white;
+    color: red;
     position: relative;
     left: 10em;
     width: 700px;
@@ -40,4 +39,23 @@ body {
 img {
     height: 160px;
     width: 150px;
+    border-radius: 50%;
+}
+.row-container{
+
+    padding: 0 160px;
+}
+.row-container ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.row-container li {
+    margin-right: 5em; 
+}
+
+.row-container img {
+    max-width: 100%;
+    height: auto;
 }
