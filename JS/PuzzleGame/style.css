@@ -1,4 +1,5 @@
 .box {
+    border-radius: 2px ;
     border-style: solid;
     border-color: blue;
     border-width: 5px;
@@ -14,6 +15,7 @@
     font-weight: bold;
     font-size: x-large;
     padding: 0px;
+    border-radius: 10px;
   }
   .cell-black {
     width: 60px;
